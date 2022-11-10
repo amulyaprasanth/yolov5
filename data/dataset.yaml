@@ -1,0 +1,13 @@
+train: ../data/train/images
+val: ../data/valid/images
+test: ../data/test/images
+
+nc: 1
+names: ["license-plate"]
+
+roboflow:
+    workspace: cars-buj9p
+    project: car-9rohl
+    version: 6
+    license: CC BY 4.0
+    url: https://universe.roboflow.com/cars-buj9p/car-9rohl/dataset/6
